@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Biketing</title>
+    <meta charset="UTF-8">
+    <link href="img/favicon.png" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/main.css?v=60560" rel="stylesheet" type="text/css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css" rel="stylesheet">
+    <script src="js/main.js?v=60560" type="text/javascript"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
+    <!-- Meta tags facebook-->
+    <meta property="og:title" content="#">
+    <meta property="og:description" content="#">
+    <meta property="og:image" content="#">
+    <!-- Meta tags twitter cards-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="#">
+    <meta name="twitter:description" content="#">
+    <meta name="twitter:image" content="#"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!--mapbox-->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/es6-promise@4.2.4/dist/es6-promise.auto.min.js"></script>
+    <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
+  </head>
+  <body>
+    <div id="sections">
+      <div class="contener contener--private">
+        <div class="contener__box">
+          <div class="contener__body contener__body--transparent">
+            <div class="contener__action">
+              <div class="contener__bg"> 
+                <div class="bg"> <img src="img/uploads/1.jpg"></div>
+              </div>
+              <h4 class="contener__title"><a href="step-1.html">¿Quieres enviar una encomienda?</a></h4>
+            </div>
+            <div class="contener__cards"> 
+              <h5 class="contener__title">Envios en curso </h5>
+              <div class="card"> 
+                <div class="card__header">
+                  <div class="card__tag card__tag--gray">En espera de Biker </div>
+                </div>
+                <div class="card__body"> <span class="card__time">Hace 5 min</span>
+                  <h5 class="card__title"><strong>Destino:</strong> Primera Transversal #1921, Maipú</h5>
+                </div>
+                <div class="card__footer">	
+                  <div class="card__arrow"> <a href="send-info.html"><span class="fa fa-long-arrow-right"></span></a></div>
+                </div>
+              </div>
+              <div class="card"> 
+                <div class="card__header">
+                  <div class="card__tag card__tag--cyan">Biker en camino </div>
+                </div>
+                <div class="card__body"> <span class="card__time">Hace 25 min</span>
+                  <h5 class="card__title"><strong>Destino:</strong> Av. El Bosque Nte #177, Las Condes</h5>
+                </div>
+                <div class="card__footer">	
+                  <div class="card__arrow"> <a href="send-info.html"><span class="fa fa-long-arrow-right"></span></a></div>
+                </div>
+              </div>
+              <div class="card"> 
+                <div class="card__header">
+                  <div class="card__tag card__tag--orange">Retirado y en camino a destino</div>
+                </div>
+                <div class="card__body"> <span class="card__time">Hace 25 min</span>
+                  <h5 class="card__title"><strong>Destino:</strong> Suecia #081, Providencia</h5>
+                </div>
+                <div class="card__footer">	
+                  <div class="card__arrow"> <a href="send-info.html"><span class="fa fa-long-arrow-right"></span></a></div>
+                </div>
+              </div>
+              <div class="card"> 
+                <div class="card__header">
+                  <div class="card__tag card__tag--green">Entregado</div>
+                </div>
+                <div class="card__body"> <span class="card__time">Hace 25 min</span>
+                  <h5 class="card__title"><strong>Destino:</strong> Manzano 401, Recoleta</h5>
+                </div>
+                <div class="card__footer">	
+                  <div class="card__arrow"> <a href="send-info.html"><span class="fa fa-long-arrow-right"></span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eff"> 
+      <div class="eff__flex"> 
+        <div class="eff__circle eff__circle--green"></div>
+        <div class="eff__circle eff__circle--blue"></div>
+        <div class="eff__circle eff__circle--orange"></div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__wrap"> 
+        <div class="footer__options"> 
+          <div class="footer__option footer__option--current"><a href="private.html"><img src="img/icons/icon-home.svg"></a></div>
+          <div class="footer__option"><a href="step-1.html"><img src="img/icons/icon-box.svg"></a></div>
+          <div class="footer__option"><a href="notifications.html"><img src="img/icons/icon-alert.svg"></a></div>
+          <div class="footer__option"><a href="profile.html"><img src="img/icons/icon-user.svg"></a></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
